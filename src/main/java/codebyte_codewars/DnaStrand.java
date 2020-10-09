@@ -1,4 +1,4 @@
-package codebyte;
+package codebyte_codewars;
 
 public class DnaStrand {
 

@@ -1,4 +1,4 @@
-package codebyte;
+package codebyte_codewars;
 
 import java.util.Scanner;
 
