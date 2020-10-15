@@ -11,7 +11,7 @@ class CounterTest {
     @Test
     void shouldCountedTrueBooleanValues() {
         // given
-        Boolean[] array = new Boolean[]{true, true, true, false};
+        Boolean[] array = new Boolean[]{true, true, true, false, null};
 
         // when
         int result = counter.countSheeps(array);
