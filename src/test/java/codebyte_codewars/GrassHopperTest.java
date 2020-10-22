@@ -1,21 +1,19 @@
 package codebyte_codewars;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.params.provider.Arguments.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.of;
 
 class GrassHopperTest {
 
     @ParameterizedTest
     @MethodSource("providesIntForTest")
-    void shouldReturnSumOfNumber(int number, int expectedResult){
+    void shouldReturnSumOfNumber(int number, int expectedResult) {
         // given
 
         // when
