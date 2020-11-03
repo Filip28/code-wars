@@ -15,7 +15,8 @@ public class TotalPoints {
                         return 1;
                     }
                     return 0;
-                }).mapToInt(value -> value)
+                })
+                .mapToInt(Integer::valueOf)
                 .sum();
     }
 }
